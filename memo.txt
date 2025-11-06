@@ -66,6 +66,25 @@ fatal: unable to auto-detect email address (got 'Administrator@DESKTOP-HUJUVSS.(
 
  git add .
 
+5. Github 가입
+  - https://github.com
+  - git으로 버전 관리한 코드를 업로드할 수 있는 클라우드 서비스
+  - 단순이 저장만 하는 것이 아니라 유저들과 함께 코드를 공유하고 온라인으로
+    하나의 프로젝트를 개발할 수 있도록 해줌
+
+6. GitHub 가입 후 repository 만들기
+   Create repository 버튼을 클릭하여 생성
+
+7. 로컬 저장소에서 github 원격 저장소 주소를 등록  
+   git remote add origin https://github.com/hexma999/test.git 
+
+8. 생성한 커밋(버전들)을 github 로 전송(push)
+   git push -u origin master 
+
+9. 협업
+  원하는 repository 에서 setting -> collaborators -> Add People      
+       
+
 
 
 
